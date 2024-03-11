@@ -1,5 +1,5 @@
 {
-  "context": "server",
+  "context": "client",
   "identifier": "com.pa.quitch.ai-personality-names-dev",
   "display_name": "AI Personality Names DEV",
   "description": "Displays AI personalities in place of AI names on the player list.",
@@ -24,5 +24,10 @@
   ],
   "icon": " ",
   "priority": 100,
+  "scenes": {
+    "live_game_players": [
+      "coui://ui/mods/com.quitch.ai-personality-names/names.js"
+    ]
+  },
   "github": "https://github.com/Quitch/AI-Personality-Names/"
 }
