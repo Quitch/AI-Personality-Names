@@ -1,0 +1,28 @@
+{
+  "context": "server",
+  "identifier": "com.pa.quitch.ai-personality-names-dev",
+  "display_name": "AI Personality Names DEV",
+  "description": "Displays AI personalities in place of AI names on the player list.",
+  "author": "Quitch",
+  "version": "0.1.0",
+  "build": "116982",
+  "date": "2024-03-11",
+  "signature": " ",
+  "forum": " ",
+  "category": [
+    "ai",
+    "ki",
+    "ia",
+    "si",
+    "ИИ",
+    "电脑",
+    "電腦",
+    "classic",
+    "titans",
+    "skirmish",
+    "ui"
+  ],
+  "icon": " ",
+  "priority": 100,
+  "github": "https://github.com/Quitch/AI-Personality-Names/"
+}
