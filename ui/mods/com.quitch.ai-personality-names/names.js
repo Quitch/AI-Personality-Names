@@ -13,5 +13,7 @@ function aiPersonalityNames() {
   };
 
   replaceHtml("div.div_player_name.truncate", "names.html");
+
+  //TODO show personalities on spectator panel too
 }
 aiPersonalityNames();
