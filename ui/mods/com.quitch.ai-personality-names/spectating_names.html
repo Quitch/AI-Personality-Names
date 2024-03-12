@@ -1,0 +1,38 @@
+<td class="div_name_header div_spectator_player_info">
+  <div class="div_name_block">
+    <span data-bind="visible: ai" class="div_player_name ai"
+      ><noloc>AI: </noloc></span
+    >
+    <!-- ko if: defeated -->
+    <!-- ko if: ai -->
+    <span
+      data-bind="text: loc(personality.display_name)"
+      class="color_negative"
+    ></span>
+    <!-- /ko -->
+    <span data-bind="visible: !ai, text: name" class="color_negative"></span>
+    <!-- /ko -->
+    <!-- ko ifnot: defeated -->
+    <!-- ko if: ai -->
+    <span
+      data-bind="text: loc(personality.display_name)"
+      class="color_normal"
+    ></span>
+    <!-- /ko -->
+    <span data-bind="visible: !ai, text: name" class="color_normal"></span>
+    <!-- /ko -->
+
+    <!-- ko with: economyHandicap -->
+    <!-- ko if: $data > 1.0 ||  $data < 1.0 -->
+    <div class="div_economy_handicap spectator_inline">
+      <div class="wrapper">
+        <span class="lbl_x">
+          <noloc>x</noloc>
+        </span>
+        <span class="value" data-bind="text: $data"></span>
+      </div>
+    </div>
+    <!-- /ko -->
+    <!-- /ko -->
+  </div>
+</td>

@@ -12,8 +12,10 @@ function aiPersonalityNames() {
     $(htmlClass).replaceWith(loadHtml(path + file));
   };
 
-  replaceHtml("div.div_player_name.truncate", "names.html");
-
-  //TODO show personalities on spectator panel too
+  replaceHtml("div.div_player_name.truncate", "playing_names.html");
+  replaceHtml(
+    "td.div_name_header.div_spectator_player_info",
+    "spectating_names.html"
+  );
 }
 aiPersonalityNames();
