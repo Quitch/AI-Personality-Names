@@ -22,7 +22,7 @@
     "skirmish",
     "ui"
   ],
-  "icon": "https://raw.githubusercontent.com/Quitch/ai-personality-name/develop/images/icon.jpg",
+  "icon": "https://raw.githubusercontent.com/Quitch/AI-Personality-Names/develop/images/icon.jpg",
   "priority": 100,
   "scenes": {
     "live_game_players": [
