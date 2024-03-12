@@ -1,7 +1,7 @@
 {
   "context": "client",
   "identifier": "com.pa.quitch.ai-personality-names-dev",
-  "display_name": "AI Personality Names DEV",
+  "display_name": "Show AI Personality Names DEV",
   "description": "Displays AI personalities in place of AI names on the player list.",
   "author": "Quitch",
   "version": "0.1.0",
