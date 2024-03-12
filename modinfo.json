@@ -2,7 +2,7 @@
   "context": "client",
   "identifier": "com.pa.quitch.ai-personality-names-dev",
   "display_name": "Show AI Personality Names DEV",
-  "description": "Displays AI personalities in place of AI names on the player list.",
+  "description": "Displays AI personalities in place of AI names on the player list and spectator panel. Compatible with All-In-One Spectator Tab.",
   "author": "Quitch",
   "version": "0.1.0",
   "build": "116982",
