@@ -8,8 +8,8 @@ function aiPersonalityNames() {
   aiPersonalityNamesLoaded = true;
 
   try {
-    var replaceHtml = function (htmlClass, file) {
-      var path = "coui://ui/mods/com.quitch.ai-personality-names/";
+    const replaceHtml = function (htmlClass, file) {
+      const path = "coui://ui/mods/com.quitch.ai-personality-names/";
       $(htmlClass).replaceWith(loadHtml(path + file));
     };
 
