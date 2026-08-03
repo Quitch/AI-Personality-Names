@@ -20,7 +20,7 @@ function aiPersonalityNames() {
     );
   } catch (e) {
     console.error(e);
-    console.error(JSON.stringify(e));
+    console.error("Show AI Personality Names: " + (e.stack || e.message || e));
   }
 }
 aiPersonalityNames();
