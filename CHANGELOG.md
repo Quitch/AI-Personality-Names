@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Show the AI's name when it has no personality name, such as Galactic War AIs
+- Show the AI's name when its personality is unnamed, such as in Galactic War without Galactic War Overhaul
 - Fix other human players' names missing from the player list
 
 ## v1.0.2 - 2026-01-03
