@@ -8,16 +8,14 @@ function aiPersonalityNames() {
   aiPersonalityNamesLoaded = true;
 
   try {
-    var replaceHtml = function (htmlClass, file) {
-      var path = "coui://ui/mods/com.quitch.ai-personality-names/";
-      $(htmlClass).replaceWith(loadHtml(path + file));
-    };
+    var personalityName =
+      "text: $data.personality && $data.personality.display_name ? loc($data.personality.display_name) : name";
 
-    replaceHtml("div.div_player_name.truncate", "playing_names.html");
-    replaceHtml(
-      "td.div_name_header.div_spectator_player_info",
-      "spectating_names.html"
-    );
+    $(
+      "div.div_player_name.truncate, td.div_name_header.div_spectator_player_info span"
+    ).attr("data-bind", function (index, binding) {
+      return binding && binding.replace(/^text: name\b/, personalityName);
+    });
   } catch (e) {
     console.error(e);
     console.error("Show AI Personality Names: " + (e.stack || e.message || e));
