@@ -4,9 +4,9 @@
   "display_name": "Show AI Personality Names",
   "description": "Displays AI personalities in place of AI names on the player list and spectator panel. Compatible with All-In-One Spectator Tab.",
   "author": "Quitch",
-  "version": "1.0.2",
-  "build": "124627",
-  "date": "2026-01-03",
+  "version": "1.0.3",
+  "build": "124683",
+  "date": "2026-10-17",
   "signature": " ",
   "forum": "https://steamcommunity.com/app/386070/discussions/0/4297069066252406329/",
   "category": [
