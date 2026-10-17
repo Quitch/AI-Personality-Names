@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Fix other human players' names missing from the player list
+
 ## v1.0.2 - 2026-01-03
 
 - Fix error when enemy is first found
