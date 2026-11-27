@@ -8,8 +8,18 @@ function aiPersonalityNames() {
   aiPersonalityNamesLoaded = true;
 
   try {
-    var personalityName =
-      "text: $data.personality && $data.personality.display_name ? loc($data.personality.display_name) : name";
+    model.aiPersonalityLabel = function (army) {
+      var personality = army.personality;
+      if (!personality || !personality.display_name) {
+        return army.name;
+      }
+      var names = _.isArray(army.slots)
+        ? _.compact(_.uniq(army.slots)).join(" ")
+        : "";
+      return (names || army.name) + " (" + loc(personality.display_name) + ")";
+    };
+
+    var personalityName = "text: model.aiPersonalityLabel($data)";
 
     _.forEach(
       [
