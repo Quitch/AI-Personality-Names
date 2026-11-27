@@ -19,6 +19,13 @@ function aiPersonalityNames() {
       return (names || army.name) + " (" + loc(personality.display_name) + ")";
     };
 
+    var stockPlayerToolTip = model.playerToolTip;
+    model.playerToolTip = function (army) {
+      return stockPlayerToolTip(
+        _.assign({}, army, { name: _.escape(model.aiPersonalityLabel(army)) })
+      );
+    };
+
     var personalityName = "text: model.aiPersonalityLabel($data)";
 
     _.forEach(
