@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Show each AI's name with its personality, such as Sorian (Absurd)
+- Show the personality in player icon tooltips
 
 ## v1.0.3 - 2026-10-17
 
