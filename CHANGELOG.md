@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Show each AI's name with its personality, such as Sorian (Absurd)
+
 ## v1.0.3 - 2026-10-17
 
 - Show the AI's name when its personality is unnamed, such as in Galactic War without Galactic War Overhaul

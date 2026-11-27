@@ -29,6 +29,7 @@ export default defineConfig([
         model: "readonly",
         _: "readonly",
         loadHtml: "readonly",
+        loc: "readonly",
       },
       sourceType: "script",
     },
