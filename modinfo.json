@@ -26,7 +26,8 @@
   "priority": 100,
   "scenes": {
     "live_game_players": [
-      "coui://ui/mods/com.quitch.ai-personality-names/names.js"
+      "coui://ui/mods/com.quitch.ai-personality-names/names.js",
+      "coui://ui/mods/com.quitch.ai-personality-names/names.css"
     ]
   },
   "github": "https://github.com/Quitch/AI-Personality-Names/"
