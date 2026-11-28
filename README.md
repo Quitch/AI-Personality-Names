@@ -1,6 +1,6 @@
 # Show AI Personality Names
 
-Displays AI personalities in place of AI names on the player list and spectator panel. Compatible with All-In-One Spectator Tab.
+Displays each AI's personality after its name on the player list and spectator panel. Compatible with All-In-One Spectator Tab.
 
 ## Installation
 

@@ -2,11 +2,11 @@
   "context": "client",
   "identifier": "com.pa.quitch.ai-personality-names-dev",
   "display_name": "Show AI Personality Names",
-  "description": "Displays AI personalities in place of AI names on the player list and spectator panel. Compatible with All-In-One Spectator Tab.",
+  "description": "Displays each AI's personality after its name on the player list and spectator panel. Compatible with All-In-One Spectator Tab.",
   "author": "Quitch",
-  "version": "1.0.3",
-  "build": "124683",
-  "date": "2026-10-17",
+  "version": "1.1.0",
+  "build": "124739",
+  "date": "2026-11-28",
   "signature": " ",
   "forum": "https://steamcommunity.com/app/386070/discussions/0/4297069066252406329/",
   "category": [
@@ -26,7 +26,8 @@
   "priority": 100,
   "scenes": {
     "live_game_players": [
-      "coui://ui/mods/com.quitch.ai-personality-names/names.js"
+      "coui://ui/mods/com.quitch.ai-personality-names/names.js",
+      "coui://ui/mods/com.quitch.ai-personality-names/names.css"
     ]
   },
   "github": "https://github.com/Quitch/AI-Personality-Names/"

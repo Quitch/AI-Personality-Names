@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.1.0 - 2026-11-28
+
+- Show each AI's name with its personality
+- Show the personality in player icon tooltips
+
 ## v1.0.3 - 2026-10-17
 
 - Show the AI's name when its personality is unnamed, such as in Galactic War without Galactic War Overhaul
