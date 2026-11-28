@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v1.1.0 - 2026-11-28
 
 - Show each AI's name with its personality
 - Show the personality in player icon tooltips
